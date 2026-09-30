@@ -1,0 +1,40 @@
+site_name: NexusFlag Docs
+site_url: https://jremes-foss.github.io/nexusflag-docs/
+site_description: Official documentation for NexusFlag - A Python-based, easily-deployable Open Source API for small community CTF cybersecurity events.
+site_author: Juha Remes
+
+repo_name: jremes-foss/NexusFlag
+repo_url: https://github.com/jremes-foss/NexusFlag
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - API Reference: api.md
+  - Revision History: changelog.md
