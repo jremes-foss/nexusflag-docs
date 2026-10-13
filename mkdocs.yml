@@ -7,6 +7,11 @@ repo_name: jremes-foss/NexusFlag
 repo_url: https://github.com/jremes-foss/NexusFlag
 edit_uri: edit/main/docs/
 
+extra:
+  meta:
+    - name: robots
+      content: index, follow
+
 theme:
   name: material
   palette:
