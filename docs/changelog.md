@@ -4,6 +4,13 @@ All notable changes, updates, and bug fixes for **NexusFlag** are tracked in thi
 
 ---
 
+## v1.1.5
+
+### Maintenance Release
+* Update uvicorn dependency from `0.22.0` to `0.54.0`.
+
+---
+
 ## v1.1.4
 
 ### Maintenance Release
