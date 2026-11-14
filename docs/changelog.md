@@ -4,6 +4,11 @@ All notable changes, updates, and bug fixes for **NexusFlag** are tracked in thi
 
 ---
 
+## v1.1.6
+
+### Maintenance Release
+* Update python dependency from 3.14-slim to 3.15-slim.
+
 ## v1.1.5
 
 ### Maintenance Release
